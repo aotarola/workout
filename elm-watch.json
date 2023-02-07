@@ -1,0 +1,11 @@
+{
+    "postprocess": ["elm-watch-node","postprocess.js"],
+    "targets": {
+        "App": {
+            "inputs": [
+                "src/Main.elm"
+            ],
+            "output": "public/build/main.js"
+        }
+    }
+}
